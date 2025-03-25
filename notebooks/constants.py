@@ -3,7 +3,10 @@ import os
 
 load_dotenv()
 
-SOURCE_BASEDIR=os.getenv('SOURCE_BASEDIR')
-ARTIST=os.getenv('ARTIST')
-ALBUM=os.getenv('ALBUM')
+ALBUM          = os.getenv('ALBUM')
+ARTIST         = os.getenv('ARTIST')
+SHORT_NAME     = os.getenv('Zero Hour')
+SOURCE_BASEDIR = os.getenv('SOURCE_BASEDIR')
+TOTAL_DISCS    = os.getenv('TOTAL_DISCS')
+
 SOURCE_DIR=f'{SOURCE_BASEDIR}/{ARTIST}/{ALBUM}'
